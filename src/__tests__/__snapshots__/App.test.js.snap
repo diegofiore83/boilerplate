@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App render should render correctly 1`] = `
+<div
+  className="makeStyles-app-1"
+>
+  <header
+    className="makeStyles-appHeader-2"
+  >
+    <img
+      alt="logo"
+      className="makeStyles-appLogo-4"
+      src="logo.svg"
+    />
+    <WithStyles(ForwardRef(Typography))
+      className="makeStyles-appText-3"
+      variant="h6"
+    >
+      Edit 
+      <code>
+        src/App.js
+      </code>
+       and save to reload.
+    </WithStyles(ForwardRef(Typography))>
+    <WithStyles(ForwardRef(Button))
+      color="secondary"
+      variant="contained"
+    >
+      Learn React
+    </WithStyles(ForwardRef(Button))>
+  </header>
+</div>
+`;
